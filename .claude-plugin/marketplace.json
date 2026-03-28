@@ -1,0 +1,34 @@
+{
+  "name": "ai-gentik",
+  "owner": {
+    "name": "ai-gentik",
+    "email": "contact@ai-gentik.dev"
+  },
+  "description": "AI Platform Engineering framework and tools marketplace",
+  "plugins": [
+    {
+      "name": "kerb",
+      "source": "./frameworks/kerb",
+      "description": "AI platform engineering framework — 7-persona pit crew for integration delivery",
+      "version": "1.0.0",
+      "author": {
+        "name": "ai-gentik"
+      },
+      "keywords": ["platform-engineering", "integration", "modernization", "architecture", "claude-code"],
+      "repository": "https://github.com/ai-gentik/frameworks-kerb",
+      "license": "MIT"
+    },
+    {
+      "name": "jarvis",
+      "source": "./jarvis",
+      "description": "Personal AI assistant: vault-based context, agents for projects, automatic tracking, morning briefings",
+      "version": "1.0.0",
+      "author": {
+        "name": "ai-gentik"
+      },
+      "keywords": ["personal-assistant", "vault", "agents", "context-management", "productivity"],
+      "repository": "https://github.com/ai-gentik/jarvis",
+      "license": "MIT"
+    }
+  ]
+}

@@ -19,15 +19,14 @@
       "license": "MIT"
     },
     {
-      "name": "jarvis",
-      "source": "./jarvis",
-      "description": "Personal AI assistant: vault-based context, agents for projects, automatic tracking, morning briefings",
+      "name": "desire-path",
+      "source": "./desire-path",
+      "description": "Silent background observer that watches how you work and surfaces workflow shortcuts",
       "version": "1.0.0",
       "author": {
         "name": "ai-gentik"
       },
-      "keywords": ["personal-assistant", "vault", "agents", "context-management", "productivity"],
-      "repository": "https://github.com/ai-gentik/jarvis",
+      "keywords": ["automation", "workflow", "shortcuts", "analysis", "hooks", "patterns"],
       "license": "MIT"
     }
   ]

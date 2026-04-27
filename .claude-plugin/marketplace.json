@@ -8,7 +8,7 @@
   "plugins": [
     {
       "name": "kerb",
-      "source": "./frameworks/kerb",
+      "source": { "source": "url", "url": "https://github.com/ai-gentik/frameworks-kerb.git" },
       "description": "AI platform engineering framework — 7-persona pit crew for integration delivery",
       "version": "1.0.0",
       "author": {
@@ -20,7 +20,7 @@
     },
     {
       "name": "desire-path",
-      "source": "./desire-path",
+      "source": { "source": "url", "url": "https://github.com/ai-gentik/desire-path.git" },
       "description": "Silent background observer that watches how you work and surfaces workflow shortcuts",
       "version": "1.0.0",
       "author": {

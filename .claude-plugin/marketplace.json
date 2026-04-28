@@ -22,7 +22,7 @@
       "name": "desire-path",
       "source": { "source": "url", "url": "https://github.com/ai-gentik/desire-path.git" },
       "description": "Silent background observer that watches how you work and surfaces workflow shortcuts",
-      "version": "2.1.7",
+      "version": "2.1.9",
       "author": {
         "name": "ai-gentik"
       },

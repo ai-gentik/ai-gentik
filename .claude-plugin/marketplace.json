@@ -8,7 +8,7 @@
   "plugins": [
     {
       "name": "kerb",
-      "source": "./frameworks/kerb",
+      "source": { "source": "url", "url": "https://github.com/ai-gentik/frameworks-kerb.git" },
       "description": "AI platform engineering framework — 7-persona pit crew for integration delivery",
       "version": "1.0.0",
       "author": {
@@ -19,15 +19,25 @@
       "license": "MIT"
     },
     {
-      "name": "jarvis",
-      "source": "./jarvis",
-      "description": "Personal AI assistant: vault-based context, agents for projects, automatic tracking, morning briefings",
-      "version": "1.0.0",
+      "name": "desire-path",
+      "source": { "source": "url", "url": "https://github.com/ai-gentik/desire-path.git" },
+      "description": "Silent background observer that watches how you work and surfaces workflow shortcuts",
+      "version": "2.3.6",
       "author": {
         "name": "ai-gentik"
       },
-      "keywords": ["personal-assistant", "vault", "agents", "context-management", "productivity"],
-      "repository": "https://github.com/ai-gentik/jarvis",
+      "keywords": ["automation", "workflow", "shortcuts", "analysis", "hooks", "patterns"],
+      "license": "MIT"
+    },
+    {
+      "name": "ux-judge",
+      "source": { "source": "local", "path": "agents/ux-judge" },
+      "description": "Autonomous UX auditor that evaluates designs against the 26 Laws of UX by Jon Yablonski and issues formal verdicts, sanctions, and actionable rulings",
+      "version": "0.1.1",
+      "author": {
+        "name": "ai-gentik"
+      },
+      "keywords": ["ux", "design", "audit", "laws-of-ux", "verdict", "usability", "psychology"],
       "license": "MIT"
     }
   ]
